@@ -77,7 +77,49 @@ decision_tree = {
                         "(Your entire future rests on this moment)",
             "branches": [
                 {
-                    "question": ""
+                    "question": "You rush to the unlocked computer and frantically search "
+                                "for your classmate's code. After digging through their "
+                                "files, you finally find it. Quickly, you copy the code "
+                                "and head back to your computer. After a minute of changing "
+                                "their code so it doesn't look exactly the same, you submit it "
+                                "and breathe a sigh of relief. Suddenly, a shadow looms over you "
+                                "and you turn around to see your teacher standing with his arms "
+                                "crossed and a dissapointed look on his face. Do you (1) confess, "
+                                "or (2) double down?",
+                    "branches": [
+                        {
+                            "outcome": "You break down and confess everything to your teacher. "
+                                       "To your surprise, he sighs and says, \"Finally, some honesty.\" "
+                                       "He explains that the assignment was actually a trap to test "
+                                       "your integrity, and you failed. You are immediately expelled. "
+                                       "Years later, you find yourself working as a cashier at a gas "
+                                       "station, bitterly reminding customers to have a nice day while "
+                                       "wondering what might have been if you hadn’t stolen that code."
+                        },
+                        {
+                            "outcome": "You look your teacher dead in the eye and declare that the "
+                                       "work is yours. The classroom falls silent. Your teacher smirks, "
+                                       "then calls your classmate to the front. They reveal their code "
+                                       "is written in Python, while your submission was in Java. You "
+                                       "panic. Your teacher announces to the class that you attempted "
+                                       "the most pathetic plagiarism in academic history. Your classmates "
+                                       "stare at you in shoked silence, wondering how you could even mess "
+                                       "that up, and to be honest, you can't believe it either. Your "
+                                       "teacher doesn't even have to tell you to leave as you slowly "
+                                       "walk out of the classroom, never to be seen agian."
+                        }
+                    ]
+                },
+                {
+                    "outcome": "You straighten your back, take a deep breath, and admit to your "
+                               "teacher that you forgot to do the assignment. He stares at you for "
+                               "a while with a quizzical look on his face. Finally, he speaks: "
+                               "\"Assignment? What assignment?\" You show him, and a look of "
+                               "realization crosses his face. \"Oh, that? That's just a typo.\" The entire class "
+                               "bursts out in laughter. You sit back in your chair, cheeks burning, and realize "
+                               "you ruined your entire week over nothing. You spend the rest of your life "
+                               "double and triple checking any document that you read, forever haunted "
+                               "by made-up deadlines."
                 }
             ]
         }
